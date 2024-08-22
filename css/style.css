@@ -1,0 +1,51 @@
+/*S'applique sur toute la page au niveau body*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* S'applippe sur toute le header (barre de navigation) */
+.header {
+    background-color: #333;
+    color: white;
+    align-items: center;
+    margin: 0
+}
+
+/*Applique juste sur les ancres du header*/
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*Applique un alignement horizontale sur le header*/
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px 30px 100px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: #ffec8e;
+    transition: 1s ;
+}
+
+.navbar .active {
+    color: #ffec8e;
+}
+
+.container {
+    padding: 50px;
+}
